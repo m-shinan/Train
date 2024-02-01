@@ -1,0 +1,109 @@
+
+h1{
+    color: black;
+    text-align: center;
+}
+#fd{
+    border-radius: 5px;
+    text-align: center;
+    background-color: aquamarine;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+#sd{
+    text-align: center;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    background-size: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+
+    
+}
+body{
+    margin: 50px;
+}
+/* .a{
+    padding-left: 70px;
+} */
+/* #b{
+    margin-left: 40px;
+} */
+#td{
+    
+    height: 500px;
+    width: 100%;
+    /* padding-left: 300px;
+    padding-right: 300px; */
+    background-image: url(train3.jpeg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    margin-left: 300px;
+    /* margin-right: 50px; */
+    /* padding-left: 300px;
+    padding-right: 300px; */
+}
+#hd{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: red;
+}
+#button{
+    background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#a{
+    background-color: bisque;
+}
+#gd{
+    
+    padding-top: 50px;
+    padding-left: 300px;
+    color: black;
+    
+}
+.label{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#tabletrain{
+    
+   margin-left: 300px;
+   margin-right: 200px;
+}
+#table{
+    
+        text-align: center;
+       
+      
+}
+
+#seattable{
+    margin-left: 30%;
+    background-color: antiquewhite;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* .column {
+    padding-left: 300px;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  } */
+  
+  /* Clear floats after image containers */
+  /* .row::after {
+    
+    content: "";
+    clear: both;
+    display: table;
+  } */

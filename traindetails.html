@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="/index.css">
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        tr:hover {background-color: coral;}
+        /* tr:nth-child(even) {background-color: #f2f2f2;} */
+        th, td {
+                padding: 15px;
+                text-align: left;
+                }
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>train details</title>
+</head>
+
+<body>
+    
+    
+        
+    <div id="fd"> 
+    <h1 class="a">
+     TRAIN BOOKING
+    </h1>
+    </div>
+    <div id="sd" class="a">
+    From<select name="from" class="a" style="border-radius: 5px;">
+     <option value=""></option>
+     <option value="tly">tly</option>
+     <option value="knr">knr</option>
+     
+     
+   </select>
+   To<select name="to"  class="a" style="border-radius: 5px;">
+     <option value=""></option>
+     <option value="tly">tly</option>
+     <option value="knr">knr</option>
+     
+     
+   </select>
+   <label for="" id="b">date</label>
+   <input type="date" style="margin-left: 30px;" >
+   <input type="submit" value="search" style="margin-left: 30px;" id="button">
+ </div>
+ <div id="hd">
+     <marquee >Book your ticket online easily.</marquee>
+ </div>
+ <form action="/addseat.html">
+ <div id="tabletrain">
+    <table id="table">
+        <tr>
+            <th>Train no.</th>
+            <th>Train name</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Time</th>
+            <th>date</th>
+            
+
+
+        </tr>
+        
+        
+        <tr>
+            <td>56522</td><td>Netravati</td><td>knr</td><td>tly</td><td>17:00</td><td>12/12/2023</td>
+        </tr>
+        <tr>
+            <td>56935</td><td>himachal exp</td><td>knr</td><td>tly</td><td>17:00</td><td>12/12/2023</td>
+        </tr>
+        <tr>
+            <td>56741</td><td>knr exp</td><td>knr</td><td>tly</td><td>17:00</td><td>12/12/2023</td>
+        </tr>
+        <tr>
+            <td>56538</td><td>manglore exp</td><td>knr</td><td>tly</td><td>17:00</td><td>12/12/2023</td>
+        </tr>
+        <tr>
+            <td colspan="6"><input type="submit" value="Book now"></td>
+        </tr>
+    </table>
+ </div>
+</form>
+</body>
+</html>

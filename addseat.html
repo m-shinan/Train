@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+          table, th, td {
+  border: 1px solid black;
+}
+        </style>
+        <link rel="stylesheet" href="/index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>add seat</title>
+    </head>
+    <body>
+        
+            
+        <div id="fd"> 
+        <h1 class="a">
+         TRAIN BOOKING
+        </h1>
+        </div>
+        <div id="sd" class="a">
+        From<select name="from" class="a" style="border-radius: 5px;">
+         <option value=""></option>
+         <option value="tly">tly</option>
+         <option value="knr">knr</option>
+         
+         
+       </select>
+       To<select name="to"  class="a" style="border-radius: 5px;">
+         <option value=""></option>
+         <option value="tly">tly</option>
+         <option value="knr">knr</option>
+         
+         
+       </select>
+       <label for="" id="b">date</label>
+       <input type="date" style="margin-left: 30px;" >
+       <input type="submit" value="search" style="margin-left: 30px;" id="button">
+     </div>
+     <div id="hd">
+         <marquee >Book your ticket online easily.</marquee>
+     </div>
+
+      <div style="margin-left: 450px; margin-top: 50px; background-image: url(/train2.jpeg);background-repeat: no-repeat;">
+        <form action="/payment.html">
+        <table id="seattable">
+        <tr>
+          <th><label for="name"><b>Name</b></label></th>
+        <td><input type="text" name="" id=""><br></td>
+        </tr>
+        <tr>
+          <th><label for="gender"><b>Gender  </b></label></th>
+        <td>male<input type="checkbox" name="male" id="">female<input type="checkbox" name="female" id=""><br></td>
+        </tr>
+        <tr>
+          <th><label for="age"><b>Age</b></label></th>
+        <td><input type="text" name="" id=""><br></td>
+        </tr>
+        <tr>
+          <th><label for="berth"><b>Berth</b></label></th>
+          <td><select name="berth"   style="border-radius: 5px;">
+            <option value=""></option>
+            <option value="lower">lower</option>
+            <option value="upper">upper</option>
+            <option value="middle">middle</option>
+            <option value="window">window</option>
+            
+          </td>
+        </tr>
+        <tr>
+          <th><label for="seattype"><b>type</b></label></th>
+          <td><select name="seat"   style="border-radius: 5px;">
+            <option value=""></option>
+            <option value="Economy">Economy</option>
+            <option value="First class">First class</option>
+            <option value="Chair car">Chair car</option>
+            <option value="AC">AC</option>
+            <option value="General">General</option>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center;"><input type="submit" value="payment"></td>
+          </tr>
+        </table>
+      </form>
+      </div>
+
+     
+
+     
+    
+     
+    </body>
+</html>
